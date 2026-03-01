@@ -1,4 +1,4 @@
-# 📚 AI Sikh Librarian — Local LLM for Historical Manuscripts (70GB+)
+# 📚 AI Sikh Librarian — Local LLM for Historical Manuscripts/Literature/Religious/Philosophical Texts
 ### A Senior AI Architect's Guide to Building a RAG-Powered Citation & Source Engine
 #### Running Locally on Apple M1 Pro MacBook Pro via GPT4All + HuggingFace Web Portal
 
