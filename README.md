@@ -304,9 +304,9 @@ if __name__ == "__main__":
     process_all_documents()
 ```
 
-Run it:
+Run it (caffeinate prevents the computer from going to sleep while running the command):
 ```bash
-python3 extract_text.py
+caffeinate -i python3 extract_text.py
 ```
 
 > ⏱️ **Time estimate:** 70GB of scanned documents could take 6–24 hours. Run it overnight. The script saves as it goes, so you can resume if interrupted.
