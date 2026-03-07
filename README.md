@@ -201,7 +201,7 @@ This helps you run different OCR settings for each language/style.
 ### Step 1.4 — Install Python OCR Libraries
 
 ```bash
-pip install pytesseract pdf2image Pillow paddlepaddle paddleocr pymupdf
+pip3 install pytesseract pdf2image Pillow paddlepaddle paddleocr pymupdf poppler
 ```
 
 > 💡 **Note on PaddleOCR:** This handles handwritten/cursive styles much better than Tesseract. Use it as a backup or for difficult documents.
@@ -306,7 +306,7 @@ if __name__ == "__main__":
 
 Run it:
 ```bash
-python extract_text.py
+python3 extract_text.py
 ```
 
 > ⏱️ **Time estimate:** 70GB of scanned documents could take 6–24 hours. Run it overnight. The script saves as it goes, so you can resume if interrupted.
@@ -316,7 +316,7 @@ python extract_text.py
 After extraction, spot-check a few `.txt` files. If you see garbled text for Punjabi or Urdu, try using PaddleOCR for those documents instead:
 
 ```bash
-pip install paddleocr
+pip3 install paddleocr
 ```
 
 Then test with:
@@ -345,7 +345,7 @@ source .venv/bin/activate
 ### Step 2.2 — Install All Required Packages
 
 ```bash
-pip install \
+pip3 install \
   langchain \
   langchain-community \
   langchain-chroma \
@@ -364,7 +364,7 @@ pip install \
 You can download directly via the HuggingFace CLI:
 
 ```bash
-pip install huggingface_hub
+pip3 install huggingface_hub
 
 # Download the Q4_K_M quantized version (~4.5GB)
 huggingface-cli download Qwen/Qwen2.5-7B-Instruct-GGUF \
@@ -528,7 +528,7 @@ TOP_K_RESULTS = 5
 # -----------------------------------------------
 SYSTEM_PROMPT = """You are a scholarly librarian and research assistant specializing in
 historical manuscripts, religious texts, philosophical works, and literature from South Asia.
-Your collection includes texts in English, Punjabi (Gurmukhi and Shahmukhi scripts), and Urdu.
+Your collection includes texts in English, Punjabi (Gurmukhi and Shahmukhi scripts), Urdu, and Hindi.
 
 Your job is to:
 1. Answer questions ONLY using the provided source passages
