@@ -6,6 +6,14 @@ _ਵਾਹਿਗੁਰੂ ਜੀ ਕਾ ਖਾਲਸਾ — ਵਾਹਿਗੁ�
 _"ਦੇਗ ਤੇਗ ਫ਼ਤਿਹ ਪੰਥ ਕੀ ਜੀਤ" — Dedicated to the eternal light of the Guru Khalsa Panth._
 
 ---
+🪯 Mission
+The real challenge of AI isn't prompt engineering — it's data integrity.
+Five hundred years of Sikh history, philosophy, and scripture sit locked inside 70GB of historical manuscripts, handwritten documents, and copy-protected PDFs. Ancient Gurmukhi and Shahmukhi ligatures break standard OCR pipelines. Rare texts remain inaccessible to modern research tools.
+This project fixes that.
+AI Sikh Librarian is a fully local, privacy-first RAG (Retrieval-Augmented Generation) pipeline that indexes 758 million words across scriptures, historical granths, scholarly teekas, and philosophical literature — and lets you query it with verified, cited answers in English, Punjabi, and Urdu.
+This is seva. It's also serious AI engineering.
+
+---
 ## ✨ What Makes This Different
 
 | Feature                   | Detail                                                                   |
